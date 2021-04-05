@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_num_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/num_questions"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_margin="15dp"
+        android:textSize="36sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/playButton"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:text="@string/play"
+        android:textSize="25sp"
+        fbutton:buttonColor="@color/lightGreen" />
+</LinearLayout>

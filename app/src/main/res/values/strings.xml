@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Cristiados</string>
+    <string name="question">Pregunta</string>
+    <string name="play_again">Jugar de nuevo</string>
+    <string name="time">15</string>
+    <string name="share">Compartir</string>
+    <string name="correct">Correcto</string>
+    <string name="wrongans">Ups, respuesta incorrecta</string>
+    <string name="timeup">Se acabó el tiempo</string>
+    <string name="play_game">Jugar</string>
+    <string name="play">Jugar</string>
+    <string name="invite">Invitar a un amigo</string>
+    <string name="quit">Salir</string>
+    <string name="next">Siguiente</string>
+    <string name="cancel">✖</string>
+    <string name="title_activity_login">Mi Progreso</string>
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_log_in">Ingresar</string>
+    <string name="action_sign_in_short">Iniciar</string>
+    <string name="action_sign_in">Registrarse</string>
+    <string name="welcome">"¡Ave María Purísima!"</string>
+    <string name="invalid_username">Usuario no válido</string>
+    <string name="invalid_password">Se necesitan más caracteres</string>
+    <string name="login_failed">"Error al iniciar sesión"</string>
+    <string name="num_questions">¿Cantidad de preguntas?</string>
+    <string name="title_activity_select_number">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_inviteion">MainActivity</string>
+    <string name="progress">Mi Progreso</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+    <string name="action_settings">Opciones</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="title_dashboard_list">DashBoards</string>
+    <string name="title_dashboard_detail">dashboard Detail</string>
+</resources>

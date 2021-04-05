@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="cristiados.triviaquiz.HomeScreen">
+
+    <TextView
+        android:id="@+id/tQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="50sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        fbutton:srcCompat="@drawable/triviafinal" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/playGame"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="@string/play_game"
+        android:textSize="25sp"
+        fbutton:buttonColor="@color/lightGreen" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/Invite"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="@string/invite"
+        android:textSize="25sp"
+        fbutton:buttonColor="@color/lightGreen" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/login"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="@string/title_activity_login"
+        android:textSize="25sp"
+        fbutton:buttonColor="@color/lightGreen" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/quit"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="@string/quit"
+        android:textSize="25sp"
+        fbutton:buttonColor="@color/lightGreen" />
+</LinearLayout>
